@@ -1,0 +1,28 @@
+.container{
+    width: 50%;
+    margin-left: 25%;
+
+}
+.explanation{
+    width: 400px;
+    font-size: 20px;
+}
+h3{
+    font-size: 30px;
+}
+img{
+    width: 30rem;
+}
+
+@media(prefers-color-scheme: light){   
+    body{
+        background-color: #fff;
+        color: #333;
+    }
+}
+@media(prefers-color-scheme: dark){
+    body{
+        background-color: #333;
+        color: #f1f1f1;
+    }
+}
